@@ -1,0 +1,9 @@
+run = "npm run build && npm start"
+entrypoint = "src/bot.ts"
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["sh", "-c", "npm run build && npm start"]
+deploymentTarget = "cloudrun"
