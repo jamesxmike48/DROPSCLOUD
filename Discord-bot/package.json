@@ -1,0 +1,23 @@
+{
+  "name": "drops-cloud-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for Drops Cloud platform",
+  "main": "src/bot.ts",
+  "scripts": {
+    "start": "tsx src/bot.ts",
+    "dev": "tsx watch src/bot.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@neondatabase/serverless": "^0.9.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
